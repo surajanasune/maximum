@@ -46,6 +46,9 @@ public class Crrossingroad {
 				}
 			}
 		}
+		if(countPair > 1000000000) {
+			return -1;
+		}
 		return countPair;
 	}
 }
